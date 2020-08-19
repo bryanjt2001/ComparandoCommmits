@@ -1,0 +1,38 @@
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\DesarrolloPrueba>git diff
+diff --git a/archivo1.txt b/archivo1.txt
+index e69de29..310b753 100644
+--- a/archivo1.txt
++++ b/archivo1.txt
+@@ -0,0 +1 @@
++Es una prueba
+\ No newline at end of file
+
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\PruebaDesarrollo>git diff
+diff --git a/Archivo1.txt b/Archivo1.txt
+index 237d7cc..05f4bae 100644
+--- a/Archivo1.txt
++++ b/Archivo1.txt
+@@ -1 +1,2 @@
+-Hola esto es una prueba
++Hola esto es una prueba nueva
+
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\PruebaDesarrollo>git diff
+diff --git a/archivo2.txt b/archivo2.txt
+index ea640fc..1c7c2e2 100644
+--- a/archivo2.txt
++++ b/archivo2.txt
+@@ -1 +1,2 @@
+-Archivo 2 escribo
+\ No newline at end of file
++Archivo 2 escribo
++Otra linea
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\PruebaDesarrollo>git log --oneline -6 --graph --all --decorate
+* 699ba83 (HEAD -> master) A<C3><B1>ado el archivo1
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\PruebaDesarrollo>git log --oneline
+7ebe73b (HEAD -> master) vacio el archivo
+699ba83 A<C3><B1>ado el archivo1
